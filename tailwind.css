@@ -1,6 +1,7 @@
 /* Tailwind CSS */
 @tailwind base;
 @tailwind components;
+@tailwind utilities;
 
 /* Custom styles */
 @layer utilities {
@@ -63,7 +64,7 @@
   .hover\:bg-blue-600:hover {
     background-color: #006ae6;
   }
-  .w-1/2 {
+  .w-1\/2 {
     width: 50%;
   }
   .w-full {
